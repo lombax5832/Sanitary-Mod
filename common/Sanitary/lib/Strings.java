@@ -5,6 +5,9 @@ public class Strings {
     public static final String PAPER_TOWEL_CLEAN = "Paper Towel";
     public static final String PAPER_TOWEL_DIRTY = "Dirty Paper Towel";
     
+    //Tile Entity Strings
+    public static final String TE_MASS_TO_ENERGY_CONVERTER = "tileMassToEnergyConverter";
+    
     //Color Modifiers
     public static final String COLOR_BLACK = "\u00a70";
     public static final String COLOR_BLUE = "\u00a71";

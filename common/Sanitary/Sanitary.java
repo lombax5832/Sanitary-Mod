@@ -1,5 +1,6 @@
 package Sanitary;
 
+import Sanitary.block.SanitaryBlocks;
 import Sanitary.core.config.SanitaryMainConfig;
 import Sanitary.item.SanitaryItems;
 import Sanitary.lib.Constants;
@@ -19,6 +20,7 @@ public class Sanitary {
     public void preInit(FMLPreInitializationEvent event) {
         SanitaryMainConfig.loadConfig(event);
         SanitaryItems.initialize();
+        SanitaryBlocks.initialize();
     }
     
     @Mod.Init
